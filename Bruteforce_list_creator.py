@@ -1,4 +1,5 @@
 from pip._vendor.distlib.compat import raw_input
+import pyfiglet
 import time
 import os
 
@@ -7,6 +8,20 @@ numberofcharacters = 0
 mincharacters = 0
 maxcharacters = 0
 filenum = 0
+
+pythonname = "BRUTEFORCE LIST CREATOR"
+version = 1.0
+
+
+time.sleep(0.3)
+ascii_banner = pyfiglet.figlet_format(pythonname + " " +  str(version))
+print(ascii_banner)
+time.sleep(1)
+print("\n" + pythonname + " "  + str(version) + " by Senox")
+time.sleep(0.3)
+print("https://github.com/SenoxCode\n\n\n")
+time.sleep(2)
+
 
 for i in range(1, 1000):
     if os.path.exists("BRUTEFORCE" + str(i) + ".txt"):
