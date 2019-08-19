@@ -15,3 +15,4 @@ Installation on Windows:
 3. Open the folder and double click the "install (Windows only).bat" (Only by first time using)
 4. Open the "start (Windows only).bat"
 ```
+I DO NOT TAKE RESPONSIBILITY FOR ANY DAMAGE CAUSED WITH THIS SCRIPT!
